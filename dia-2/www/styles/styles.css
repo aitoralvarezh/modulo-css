@@ -1,0 +1,56 @@
+@import 'normalize.css';
+
+body {
+    padding: 20px
+}
+.link:visited {
+ color:green
+}
+.link:hover {
+    color:gray;
+    font-size: 40px;
+}
+h1:hover {
+    color: gray;
+    cursor: pointer;
+}
+tr:first-child {
+    background-color: aqua;
+}
+tr:last-child {
+    background-color: red;
+}
+tr:nth-child(3) {
+    background-color: blueviolet;
+}
+tr:nth-child(even) {
+    background-color:gold;
+}
+tr:nth-child(odd) {
+    background-color: green;
+}
+td:empty {
+    background-color: lightslategrey;
+}
+th:not(.columna-2) {
+    color:red
+} 
+/* PSEUDO ELEMENTOS */
+
+p::first-letter {
+    font-size: 300%;
+}
+p::first-line {
+    color: red;
+}
+p::selection {
+    background-color: yellow;
+}
+p::after {
+    content: 'ver más';
+    font-size: 200%;
+}
+p::before {
+    content: ':D';
+    font-size: 200%;
+}

@@ -1,0 +1,54 @@
+@import 'normalize.css';
+
+@import url(<link href="https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">);
+
+@font-face {
+    font-family: 'Kufam-Bold';
+    src: url('/fonts/Kufam-Bold.eot?#iefix') format('embedded-opentype'),  url('/fonts/Kufam-Bold.woff') format('woff'), url('/fonts/Kufam-Bold.ttf')  format('truetype'), url('/fonts/Kufam-Bold.svg#Kufam-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/*html {
+    font-size: 50px
+}*/
+body {
+    font-family: 'kufam-bold', arial,  cursive;
+   
+
+}
+p {
+    padding: 5%;
+    border: 10px solid rgb(30, 255, 60);
+
+}
+/* vw=anchura ///vh=alto */
+section {
+
+}
+h1 {
+    font-size: 2.22em;
+    color: goldenrod;
+    text-shadow: 10px 10px 5px black;
+    text-align: right;
+    letter-spacing: -2px;
+    word-spacing: 1rem;
+    font-family: 'kufam-bold';
+}
+p.importante {
+    font-size: 150%;
+    color: rgb(0, 240, 20);
+    background-color:  rgba(0, 0, 0, 0.9);
+    text-align:justify;
+}
+p:not(.importante) {
+    line-height: 2;
+}
+section > p:last-child {
+    background-color: rgba(132, 224, 230, 0.6);
+}
+p span {
+    text-transform: uppercase;
+    font-style:italic;
+    text-decoration: line-through red dotted;
+}

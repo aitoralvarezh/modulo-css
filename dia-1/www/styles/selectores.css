@@ -1,0 +1,52 @@
+p {
+     color: darkgoldenrod;
+     margin: 0;
+}
+section {
+    padding: 20px;}
+.item-list { 
+    color:darkorchid;
+}
+.big {
+    font-size: 25px;
+}
+.red {
+    color:red;
+}
+.small {
+    font-size: 12px;
+}
+#intro {
+    background-image: url(/images/landscape.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+}
+#ocio {
+    background-color: seashell;
+}
+#desarrollo {
+    background-color: cyan;
+}
+[lang] {
+    background-color: red;
+}
+[id] {
+    border: 1px solid whitesmoke;
+}
+[data-author="Aitor"] {
+    color:pink
+}
+[data-etiquetas~="oferta"] {
+    /*selecciona todos los elementor que tengan el atributo 'oferta'*/
+    background-color: greenyellow;
+    border: 1px dashed blue;
+}
+[data-etiquetas*="des"] {
+    /*delecciona todos los elementos cuyo atributo comience por 'des' */
+    background-color: greenyellow;
+    border: 1px solid gray;
+}
+[data-etiquetas$="ta"] {
+    background-color: cyan;
+}

@@ -1,0 +1,15 @@
+
+body {  
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+#jumbotron {
+    height: 200px;
+    background-image: url('images/header-image.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 10px;
+    
+}

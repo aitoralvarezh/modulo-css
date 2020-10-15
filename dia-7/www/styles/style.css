@@ -1,0 +1,80 @@
+@import 'normalize.css';
+
+@import 'print.css' print;
+
+/* @media (max-width: 600px) and (orientation: portrait) {
+    body {
+        color:red;
+    }
+}
+
+
+@media (min-width: 600px) , (orientation: landscape) {
+    body {
+        color:green;
+    }
+}
+
+@media not (max-width: 800px) and (orientation: portrait) {
+    body {
+        color:blue;
+    }
+} */
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.center {
+    background-color: whitesmoke;
+    padding: 10px;
+    display: flex;
+    max-width: 768px;
+    margin: auto;
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+    border: 1px solid red
+    
+}
+
+aside {
+    background-color: blanchedalmond;
+    flex-shrink: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+}
+
+nav a {
+    display: block;
+    padding: 10px;
+    margin: 10px  0;  
+    
+}
+
+
+
+@media (max-width: 600px) {
+    .center {
+        display: flex;
+        flex-direction: column;
+    }
+    aside{
+        order: -1;
+    }
+    nav {
+        text-align: center;
+    }
+    #logo {
+        order: -1;
+    }
+}
